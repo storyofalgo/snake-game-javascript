@@ -1,0 +1,22 @@
+<!-- Main HTML structure for the snake game interface. -->
+<html>
+	<head> 
+		<!-- Browser metadata and stylesheet link. -->
+		<meta charset = "utf-8"/> 
+		<title>Snake Games</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>	
+		<!-- Center the playable board on the page. -->
+		<center>
+		<div id="board">
+			<!-- The apple that the snake must eat. -->
+			<div id="apple"></div>
+			<!-- The snake head is represented by the first snake block. -->
+			<div class="snake"></div>
+		</div>
+		</center>
+	</body>
+</html>
+<!-- Load the game logic script after the page structure is ready. -->
+<script src="action.js"></script>
